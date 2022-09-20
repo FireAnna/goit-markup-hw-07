@@ -41,32 +41,32 @@
   }
 }
 
-.navigation{
-  &-projects {
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
-}
-.projects{
-  &-filter {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 34px;
-  }
-  &-list:not(:last-child) {
-    margin-right: 8px;
-    &:hover,
-    &:focus {
-      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-        1px 4px 6px rgba(0, 0, 0, 0.16);
-    }
-  }
+.projects-guide {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
-.portfolio-element > .link,
+.projects-filter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 34px;
+}
+
+.projects-filter__list:not(:last-child) {
+  margin-right: 8px;
+}
+
+.projects-filter__list:not(:last-child):hover,
+.projects-filter__list:not(:last-child):focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.portfolio-element>.link,
 .portfolio-element img {
   display: block;
 }
+
+
 
 .cards{
   &-position {

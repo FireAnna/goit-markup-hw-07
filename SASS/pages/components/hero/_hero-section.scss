@@ -1,4 +1,4 @@
-.hero {
+.main-page {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -6,16 +6,16 @@
   margin-right: auto;
   height: 600px;
   max-width: 1600px;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../images/hero.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   outline: 1px solid var(--title-text-color);
   background-color: var(--background-accent-color);
-  &-container {
-    max-width: 696px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+}
+
+.hero-container {
+  max-width: 696px;
+  margin-left: auto;
+  margin-right: auto;
 }
