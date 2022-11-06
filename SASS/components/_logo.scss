@@ -32,3 +32,19 @@
     color: var(--title-text-color);
   }
 }
+
+.footer {
+  & .logo {
+    display: inline-block;
+    margin-right: 0px;
+    margin-bottom: 20px;
+
+    &-studio {
+    margin-bottom: 9px;
+    }
+  }
+}
+
+.footer-studio{
+color: var(--title-color);
+}
