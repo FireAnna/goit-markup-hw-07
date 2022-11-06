@@ -4,52 +4,37 @@
 
 /*---------- BASE ----------*/
 @import "./base/common";
-@import "./base/container";
+
 
 /*---------- COMPONENTS ----------*/
+@import "./components/backdrop";
+@import "./components/close-button";
+@import "./components/container";
+@import "./components/footer-title";
+@import "./components/hero-button";
+@import "./components/section";
+@import "./components/hero-title";
 @import "./components/title";
-@import "./components/header/logo";
-@import "./components/header/nav";
-@import "./components/header/nav-item";
+@import "./components/logo";
+@import "./modal";
+@import "./components/team-title";
 
-/*HERO*/
-@import "./components/hero/hero-button";
-@import "./components/hero/hero-section";
-@import "./components/hero/hero-title";
-
-/*FEATURES*/
-@import "./components/features/features";
-@import "./components/features/features-icon";
-/*What are we doing*/
-@import "./components/works/section-works";
-
-/*TEAM*/
-@import "./components/team/team-section";
-@import "./components/team/team-title";
-@import "./components/team/team-cards";
-@import "./components/team/team-social";
-
-/*CUSTOMERS*/
-@import "./components/customers/customers-section";
-@import "./components/customers/customers-item";
-
-/*FOOTER*/
-@import "./components/footer/footer-section";
-@import "./components/footer/logo";
-@import "./components/footer/footer-contacts";
-@import "./components/footer/footer-title";
-@import "./components/footer/footer-social";
-@import "./components/footer/footer-subscribe";
-
-/*MODAL*/
-@import "./components/modal/backdrop";
-@import "./components/modal/modal";
-@import "./components/modal/close-button";
-@import "./components/modal/modal-form";
-@import "./components/modal/modal-checkbox";
-@import "./components/modal/modal-submit";
-
-/*PORTFOLIO*/
-@import "./components/portfolio/portfolio-buttons";
-@import "./components/portfolio/portfolio-cards";
-@import "./components/portfolio/portfolio-overlay";
+/*LAYOUT*/
+@import "./layout/hero-button";
+@import "./layout/hero-section";
+@import "./layout/hero-title";
+@import "./layout/features";
+@import "./layout/features-icon";
+@import "./layout/section-works";
+@import "./layout/team-section";
+@import "./layout/team-cards";
+@import "./layout/team-social";
+@import "./layout/customers-section";
+@import "./layout/customers-item";
+@import "./layout/footer-section";
+@import "./layout/footer-contacts";
+@import "./layout/footer-social";
+@import "./layout/footer-subscribe";
+@import "./layout/portfolio-buttons";
+@import "./layout/portfolio-cards";
+@import "./layout/portfolio-overlay";
